@@ -1,0 +1,9 @@
+CREATE DATABASE film_db;
+USE film_db;
+CREATE TABLE film (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    judul VARCHAR(100),
+    genre VARCHAR(255),
+    tahun_rilis INT,
+    rating INT
+);
